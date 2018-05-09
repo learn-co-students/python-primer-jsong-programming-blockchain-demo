@@ -1,6 +1,6 @@
 import unittest
 
-from index import (str_to_bytes,
+from ipynb.fs.full.index import (str_to_bytes,
 bytes_to_str, little_endian_to_int, int_to_little_endian)
 
 class HelperTest(TestCase):
