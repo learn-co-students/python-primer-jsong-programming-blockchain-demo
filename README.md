@@ -85,9 +85,15 @@ In order to do this, you'll have to open helper.py and implement the bytes_to_st
 ```python
 # Exercise 1
 
-reload(helper)
+def bytes_to_str(b, encoding='ascii'):
+    '''Returns a string version of the bytes'''
+    pass
 
-run_test(helper.HelperTest('test_bytes'))
+
+def str_to_bytes(s, encoding='ascii'):
+    '''Returns a bytes version of the string'''
+    pass
+
 ```
 
 ### Getting Help
@@ -276,13 +282,16 @@ n = 8675309
 
 little_endian = b'\x11\x22\x33\x44\x55'
 # print little endian in decimal
-```
 
+def little_endian_to_int(bytes):
+    '''little_endian_to_int takes byte sequence as a little-endian number.
+    Returns an integer'''
+    # use the from_bytes method of int
+    pass
 
-```python
-# Exercise 4.2
-
-reload(helper)
-run_test(helper.HelperTest('test_little_endian_to_int'))
-run_test(helper.HelperTest('test_int_to_little_endian'))
+def int_to_little_endian(n, length):
+    '''endian_to_little_endian takes an integer and returns the little-endian
+    byte sequence of length'''
+    # use the to_bytes method of n
+    pass
 ```
