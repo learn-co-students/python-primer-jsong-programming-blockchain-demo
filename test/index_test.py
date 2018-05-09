@@ -1,4 +1,4 @@
-import unittest
+from unittest import TestCase, TestSuite, TextTestRunner
 
 from ipynb.fs.full.index import (str_to_bytes,
 bytes_to_str, little_endian_to_int, int_to_little_endian)
