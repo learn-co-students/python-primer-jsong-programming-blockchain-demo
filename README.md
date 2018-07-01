@@ -93,7 +93,6 @@ def bytes_to_str(b, encoding='ascii'):
 def str_to_bytes(s, encoding='ascii'):
     '''Returns a bytes version of the string'''
     pass
-
 ```
 
 ### Getting Help

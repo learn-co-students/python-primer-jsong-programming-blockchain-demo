@@ -1,5 +1,4 @@
 from unittest import TestCase, TestSuite, TextTestRunner
-
 from ipynb.fs.full.index import *
 
 class HelperTest(TestCase):
