@@ -81,7 +81,11 @@ import helper
 
 There is a test driven exercise (and there is another at the end of the notebook). The tests being run are in the `test/index_test.py` file. Again, if you want to see the code you can click on the Octocat icon on the tool bar. Your job on these Test Driven Exercisess is to get the tests to pass.
 
-In order to do this, you'll have to write the methods below. So go ahead and implement the `bytes_to_str` and `str_to_bytes functions`. Once you're done run the Run Test button. Try it now!
+In order to do this, you'll have to write the methods below. So go ahead and implement the `bytes_to_str` and `str_to_bytes functions`. Once you're done, run the blue Run Test button. Try it now!
+
+### Getting Help
+
+If you can't get this, there is a `solution.ipynb` notebook on GitHub with complete answers.
 
 
 ```python
@@ -94,10 +98,6 @@ def str_to_bytes(s, encoding='ascii'):
     '''Returns a bytes version of the string'''
     pass
 ```
-
-### Getting Help
-
-If you can't get this, there's a solution branch on GitHub with complete answers in the `index.ipynb` file which you can use to get the answers.
 
 ### Useful Python 3 Idioms
 
@@ -173,7 +173,7 @@ h = 'b010a49c82b4bc84cc1dfd6e09b2b8114d016041efaf591eca88959e327dd29a'
 
 ### Modular Arithmetic
 
-If you don't remember Modular Arithmetic, it's this function on python
+If you don't remember Modular Arithmetic, it's this function in python
 
 ```python
 39 % 12
@@ -273,7 +273,7 @@ n = 8675309
 little_endian = b'\x11\x22\x33\x44\x55'
 # print little endian in decimal
 
-def little_endian_to_int(bytes):
+def little_endian_to_int(b):
     '''little_endian_to_int takes byte sequence as a little-endian number.
     Returns an integer'''
     # use the from_bytes method of int
