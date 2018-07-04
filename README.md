@@ -79,7 +79,7 @@ import helper
 
 ### Test Driven Exercise
 
-There is a test driven exercise. The tests are in the `test/index_test.py` file. Again, if you want to see the code you can click on the Octocat icon on the tool bar. Your job is to get the tests to pass.
+There is a test driven exercise (and there is another at the end of the notebook). The tests being run are in the `test/index_test.py` file. Again, if you want to see the code you can click on the Octocat icon on the tool bar. Your job on these Test Driven Exercisess is to get the tests to pass.
 
 In order to do this, you'll have to write the methods below. So go ahead and implement the `bytes_to_str` and `str_to_bytes functions`. Once you're done run the Run Test button. Try it now!
 
@@ -267,8 +267,6 @@ Convert the following:
 
 
 ```python
-# Exercise 4.1
-
 n = 8675309
 # print n in 8 big endian bytes
 
