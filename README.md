@@ -1,5 +1,5 @@
 
-### This is a Jupyter Notebook
+# This is a Jupyter Notebook
 You can write Python code and it will execute. You can write the typical 'hello world' program like this:
 
 ```python
@@ -12,6 +12,9 @@ You can execute by pressing shift-enter. Try it! You can also click the Run butt
 ```python
 print('hello world')
 ```
+
+    hello world
+
 
 ### You can do a lot more than just print "hello world"
 
@@ -66,7 +69,6 @@ Your task is to make them pass.
 We can import various modules to make our experience using Jupyter more pleasant.
 This way, making everything work will be a lot easier.
 
-
 ```python
 # import everything and define a test runner function
 from importlib import reload
@@ -75,16 +77,14 @@ from helper import run_test
 import helper
 ```
 
-### Exercise 1
+### Test Driven Exercise
 
-Make [this test](/edit/session0/helper.py) pass: `helper.py:HelperTest:test_bytes`
+There is a test driven exercise. The tests are in the `test/index_test.py` file. Again, if you want to see the code you can click on the Octocat icon on the tool bar. Your job is to get the tests to pass.
 
-In order to do this, you'll have to open helper.py and implement the bytes_to_str and str_to_bytes functions. Once you're done editing [helper.py](/edit/session0/helper.py), run this again. Try it now!
+In order to do this, you'll have to write the methods below. So go ahead and implement the `bytes_to_str` and `str_to_bytes functions`. Once you're done run the Run Test button. Try it now!
 
 
 ```python
-# Exercise 1
-
 def bytes_to_str(b, encoding='ascii'):
     '''Returns a string version of the bytes'''
     pass
@@ -97,7 +97,7 @@ def str_to_bytes(s, encoding='ascii'):
 
 ### Getting Help
 
-If you can't get this, there's a `complete` directory that has the `helper.py` file and the `session0.ipynb` file which you can use to get the answers.
+If you can't get this, there's a solution branch on GitHub with complete answers in the `index.ipynb` file which you can use to get the answers.
 
 ### Useful Python 3 Idioms
 
@@ -154,7 +154,7 @@ print(b'hello world'.hex())
 print(bytes.fromhex('68656c6c6f20776f726c64'))
 ```
 
-### Exercise 2
+### Exercise
 
 Reverse this hex dump: `b010a49c82b4bc84cc1dfd6e09b2b8114d016041efaf591eca88959e327dd29a`
 
@@ -194,7 +194,7 @@ If you're still confused, please take a look at [this](https://www.khanacademy.o
 print(39 % 12)
 ```
 
-### Exercise 3
+### Exercise
 
 Find the modulo 19 of these numbers:
 
@@ -258,19 +258,12 @@ print(int.from_bytes(big_endian, 'big'))
 print(int.from_bytes(little_endian, 'little'))
 ```
 
-### Exercise 4
+### Test Driven Exercise
 
-1. Convert the following:
+Convert the following:
 
  * 8675309 to 8 bytes in big endian
  * interpret ```b'\x11\x22\x33\x44\x55'``` as a little endian integer
-
-2. Make the following tests pass:
-
-```
-helper.py:test_little_endian_to_int
-helper.py:test_int_to_little_endian
-```
 
 
 ```python
