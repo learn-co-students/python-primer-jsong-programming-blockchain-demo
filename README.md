@@ -32,6 +32,21 @@ def fib(n):
 print(fib(10))
 ```
 
+### Imports
+
+You already have unit tests that are written for you.
+Your task is to make them pass.
+We can import various modules to make our experience using Jupyter more pleasant.
+This way, making everything work will be a lot easier.
+
+```python
+# import everything and define a test runner function
+from importlib import reload
+from helper import run_test
+
+import helper
+```
+
 ### A few things you should remember in Python3
 
 Strings and bytes are now different
@@ -61,28 +76,13 @@ hello_world_string = b.decode('ascii')
 print(hello_world_string == s) # True
 ```
 
-### Imports
-
-You already have unit tests that are written for you.
-Your task is to make them pass.
-We can import various modules to make our experience using Jupyter more pleasant.
-This way, making everything work will be a lot easier.
-
-```python
-# import everything and define a test runner function
-from importlib import reload
-from helper import run_test
-
-import helper
-```
-
 ### Test Driven Exercise
 
-There is a test driven exercise (and there is another at the end of the notebook). The tests being run are in the `test/index_test.py` file. Again, if you want to see the code you can click on the Octocat icon on the tool bar. Your job on these Test Driven Exercisess is to get the tests to pass.
+Below is test driven exercise (and there is another at the end of the notebook). The tests being run are in the `test/index_test.py` file. Again, if you want to see the code you can click on the Octocat icon on the tool bar. Your job on these Test Driven Exercisess is to get the tests to pass.
 
 In order to do this, you'll have to write the methods below. So go ahead and implement the `bytes_to_str` and `str_to_bytes functions`. Once you're done, run the blue Run Test button. Try it now!
 
-### Getting Help
+### (Getting Help)
 
 If you can't get this, there is a `solution.ipynb` notebook on GitHub with complete answers.
 
