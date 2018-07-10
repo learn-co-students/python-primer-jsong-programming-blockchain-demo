@@ -78,13 +78,13 @@ print(hello_world_string == s) # True
 
 ### Test Driven Exercise
 
-Below is test driven exercise (and there is another at the end of the notebook). The tests being run are in the `test/index_test.py` file. Again, if you want to see the code you can click on the Octocat icon on the tool bar. Your job on these Test Driven Exercisess is to get the tests to pass.
+Below is test driven exercise. The tests being run are in the `test/index_test.py` file. Again, if you want to see the code you can click on the Octocat icon on the tool bar. Your job on these Test Driven Exercises is to get the tests to pass.
 
 In order to do this, you'll have to write the methods below. So go ahead and implement the `bytes_to_str` and `str_to_bytes functions`. Once you're done, run the blue Run Test button. Try it now!
 
 ### (Getting Help)
 
-If you can't get this, there is a `solution.ipynb` notebook on GitHub with complete answers.
+If you can't get this, there is a `solution.ipynb` notebook on GitHub (click the Octocat GitHub button near the Run Test button to see the repository) with complete answers.
 
 
 ```python
